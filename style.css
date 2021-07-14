@@ -94,6 +94,43 @@ padding: 8px 20px;
     width: 350px;
 }
 
+
+
+
+
+/* second blog part start */
+.top-blogs{
+    margin-bottom: 50px;
+}
+
+.top-blogs h2 {
+    padding: 0px 0px 5px 100px;
+    color: rgb(13, 81, 87);
+    text-decoration: underline;
+}
+
+
+.blogs2 {
+    display: grid;
+    margin-left: 100px;
+    padding: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 40px;
+}
+
+.blog2 {
+    padding: 5px;
+    width: 90%;
+    display: flex;
+    box-shadow: 4px 2px 24px 0px rgba(104, 104, 104, 0.53);
+
+}
+
+.thumbnil img{
+    width: 177px;
+    padding: 15px;
+}
+
 /* footer style */
 footer{
     background-color: rgb(13, 81, 87);
