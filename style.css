@@ -5,8 +5,6 @@ margin: 0px;
 padding: 0px;
 }
 
-
-
 h2{
     font-size: 35px;
 }
@@ -124,3 +122,57 @@ footer  p{
     margin-top: 5px;
     margin-bottom: 5px;
 }
+
+/* media quries styles */
+@media only screen and (max-width: 770px) {
+    .blogs {
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px;
+    }
+
+    h2{
+        font-size: 25px;
+    }
+
+    p{
+        font-size: 10px;
+        text-align: justify;
+        padding: 1px;
+    }
+
+    a{
+        font-size: 12px;
+    }
+
+    .button  {
+        text-decoration: none;
+        color: rgb(9, 241, 218);
+        border: 3px solid rgb(9, 241, 218);
+        border-radius: 25px;
+        margin-top: 5px;
+        }
+
+        #container{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .element1 {
+            margin-top: 40px;
+        }
+
+
+
+
+  }
+
+  @media only screen and (max-width: 480px) {
+    .blogs {
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+    }
+  }
